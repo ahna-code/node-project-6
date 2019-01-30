@@ -17,7 +17,7 @@ server.on('request', function (request, response) {
         })
     } else {
         response.statusCode = 404;
-        response.write('<img src="https://cdn.pixabay.com/photo/2017/04/09/12/45/error-2215702__340.png">');
+        response.write('<img src="https://cdn.pixabay.com/photo/2015/03/25/13/04/page-not-found-688965__340.png">');
         response.end();
     }
 });
